@@ -1,0 +1,80 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.c-blue {
+    background-color: #3fbabf;
+}
+
+.c-blue-20 {
+    background-color: #f7fdfd;
+}
+
+.c-icon {
+    color: #3fbabf;
+}
+
+.nav-link.active {
+    color: #3fbabf !important;
+}
+
+.carousel-indicators .active {
+    background-color: #3fbabf !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .2;
+    transition: opacity .6s ease;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    bottom: 35%;
+}
+
+.nav-link {
+    color: #343a40;
+}
+
+.nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: #fff;
+}
+
+.nav {
+    position: relative;
+}
+
+.nav::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 4px;
+    height: 50px;
+    background-color: #3fbabf;
+    transform: translateY(-50%);
+}
